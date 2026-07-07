@@ -1,3 +1,7 @@
+> **Project rules live in the root [/AGENTS.md](../AGENTS.md).** Read that first —
+> it governs stack, architecture, security, and locked copy claims. The notes below
+> are Astro-specific dev commands only.
+
 ## Development
 
 When starting the dev server, use background mode:
