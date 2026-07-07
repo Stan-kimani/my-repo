@@ -22,3 +22,13 @@ transactional-only) and the PDF built. Cleaner conversion; add in week two.
 Operator standard: 2–3 yrs executive support experience + 4-stage skills test.
 Guarantee: 10-day replacement re-match, no extra cost. (Bench must honor this.)
 Testimonial: Lynet (Founder) — real, consenting client. Strengthen with company/photo.
+
+## 2026-07-06 — Hosting locked: Netlify (not Vercel)
+Supersedes the "Vercel/Netlify" note above. Vercel's free Hobby plan is
+non-commercial-use only; RemoteKind is a commercial site, so Vercel would require
+Pro ($20/mo). Netlify's free Starter tier allows commercial use, runs a Node runtime
+(so the postmark npm SDK works directly), and includes ~125K function
+invocations / 100GB bandwidth — ample for 4 static pages + one contact endpoint.
+Adapter: `npx astro add netlify`. Cloudflare Pages was the alternative (also
+free + commercial-OK) but its Workers runtime means calling Postmark via fetch
+instead of the SDK.
