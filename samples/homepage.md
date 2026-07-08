@@ -9,8 +9,8 @@ Single CTA everywhere: **Book a call.** (Newsletter/lead magnet deferred to post
 
 **Headline:** The leverage of a great operator — without the hiring risk.
 
-**Subhead:** RemoteKind matches overwhelmed founders with vetted remote operators who
-take the day-to-day off your plate — so you can get back to the work only you can do.
+**Subhead:** RemoteKind sources and vets the right remote operator for overwhelmed founders —
+so you can hand off the day-to-day and get back to the work only you can do.
 
 **Primary CTA button:** Book a call
 **Secondary (scroll link under button):** Or see how it works ↓
@@ -44,23 +44,25 @@ That's not a virtual assistant. That's leverage.
 
 ---
 
-## 4. How it works (3 steps)
+## 4. How it works (4 steps)
 
 **Heading:** How RemoteKind works
 
-**Step 1 — Book a discovery call**
-We learn your business, your workflow, and exactly where you're losing time. No generic
-intake form — a real conversation.
+**Step 1 — Discovery**
+A short consultation to understand your business, the role you need filled, and the qualities
+that matter most in your ideal assistant. No generic intake form — a real conversation.
 
-**Step 2 — We match you with a vetted operator**
-Not a job board. We hand-select from our bench of pre-screened operators — all with 2–3
-years of executive support experience and a passed 4-stage skills test — and match for
-skills and working style, not just availability.
+**Step 2 — Sourcing**
+We search for qualified candidates who match your requirements, skills needs, and working style.
 
-**Step 3 — You delegate and reclaim your time**
-We run a 90-minute handoff session and provide a delegation playbook to get you started.
-Then it runs. One vetted operator, one simple monthly retainer, and ongoing support
-whenever you need it.
+**Step 3 — Vetting**
+Every candidate completes our rigorous 4-stage skills test, and each brings 2–3 years of
+executive support experience. We assess fit, reliability, and communication — so only proven
+people reach your shortlist.
+
+**Step 4 — Placement**
+We present the strongest candidates for your review, support your selection, and move everything
+smoothly into onboarding — so you can delegate and reclaim your time.
 
 **CTA under the steps:** Book a call
 
@@ -73,11 +75,11 @@ whenever you need it.
 You could. But you'd sift a hundred applicants, gamble on one, and manage the risk if it
 doesn't work out — time you don't have. RemoteKind exists so you skip all of it:
 
-- **Vetted, not gambled.** All operators have 2–3 years of executive support experience
-  and pass a rigorous 4-stage skills test — we only work with the best.
-- **Matched to you.** Chosen for your workflow and working style, not just who's free.
-- **10-day replacement guarantee.** If it's not the right fit within your first 10 days,
-  we'll re-match you — no questions asked, no extra cost.
+- **Vetted, not gambled.** Every operator has 2–3 years of executive support experience and
+  passes a rigorous 4-stage skills test — we only work with the best.
+- **Chosen for you.** Candidates selected for your requirements and working style, not just availability.
+- **We run the whole search.** Discovery, sourcing, vetting, and a curated shortlist — you skip
+  the hundred applicants and choose from the best.
 
 ---
 

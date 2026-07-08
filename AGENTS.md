@@ -64,8 +64,9 @@ approval. Keep this file concise — replace, don't append endlessly.
 - Page copy is drafted in `samples/` and approved before building. Pull approved copy
   into components; don't invent headlines or body text.
 - **Never invent or alter brand claims.** These are locked in decisions.md and must stay
-  exactly true: operators = 2–3 yrs experience + 4-stage skills test; 10-day replacement
-  guarantee; the Lynet testimonial is the only real one — do not fabricate others.
+  exactly true: operators = 2–3 yrs experience + 4-stage skills test; the Lynet testimonial is
+  the only real one — do not fabricate others. Service model = placement (source → vet →
+  shortlist → client selects), NOT a ready "bench." No replacement guarantee in v1.
 
 ## 7. Conventions
 - Components small, colocated, no premature extraction (extract on the 3rd duplication).
@@ -87,4 +88,4 @@ approval. Keep this file concise — replace, don't append endlessly.
 
 ## Note on src/AGENTS.md
 `src/AGENTS.md` holds Astro-specific dev commands only. THIS root file governs the
-project. When they conflict, this file wins.    
+project. When they conflict, this file wins.  

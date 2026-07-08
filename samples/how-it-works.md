@@ -3,13 +3,6 @@
 Voice: premium, calm, confident. This is the TRUST page — it answers "how do I know I'll
 get someone good?" Single CTA: Book a call.
 
-> RECONCILIATION PENDING: this page now describes a sourcing/shortlist/placement model.
-> The finalized homepage describes a "matched from a vetted bench, you delegate" model with
-> hard claims (2–3 yrs, 4-stage test, 10-day guarantee). See "Open items" — homepage.md and
-> decisions.md must be reconciled to match before build.
-
----
-
 ## Hero
 
 **Heading:** Delegating shouldn't feel like a gamble.
@@ -34,8 +27,9 @@ and the qualities that matter most in your ideal virtual assistant.
 We search for qualified candidates who match your requirements, skills needs, and working style.
 
 **Step 3 — Vetting**
-Every candidate goes through a careful review process that may include screening, skills
-checks, and an assessment of fit, reliability, and communication.
+Every candidate completes our rigorous 4-stage skills test and brings 2–3 years of executive
+support experience. We assess fit, reliability, and communication — so only proven people reach
+your shortlist.
 
 **Step 4 — Placement**
 We present the strongest candidates for your review, support the selection process, and help
@@ -64,8 +58,8 @@ doesn't work out — time you don't have. RemoteKind runs the whole process for 
 - **A proven process, not a gamble.** Discovery, sourcing, and careful vetting before anyone
   reaches your shortlist.
 - **Matched to you.** Candidates chosen for your requirements and working style, not just availability.
-- [RECONCILE: replacement guarantee — the homepage promises a 10-day re-match. Confirm the
-  guarantee terms under this placement model so this bullet is accurate.]
+- **Vetted to a real bar.** Every operator has 2–3 years of experience and passes a 4-stage
+  skills test — the search and screening are done before anyone reaches you.
 
 ---
 
@@ -80,14 +74,7 @@ filled and how we'd find the right person for it.
 
 ---
 
-## Open items — reconciliation with homepage (do before build)
-1. Bench vs sourcing: homepage says "hand-select from our bench of pre-screened operators";
-   this process says "we search for qualified candidates who match your requirements." Pick the true one.
-2. Match vs select: homepage says "we match you… you delegate"; this process says "we present
-   candidates for your review… support the selection process." The client selecting is different
-   from being matched — align both pages.
-3. Vetting claims: homepage states, definitively, "all operators have 2–3 years of experience
-   and pass a 4-stage skills test." This process says vetting "may include screening, skills
-   checks." Confirm whether the hard claims are literally true for every placement, or soften them.
-4. Retainer meaning: homepage frames the monthly retainer as "one operator + ongoing support";
-   here it's the placement service (sourcing→placement coordination). Clarify what the client pays for.
+## Status
+Reconciled with homepage.md (2026-07-07): placement model confirmed; sourcing (not a ready
+bench); client selects from a shortlist; 2–3 yrs + 4-stage claim retained (true); 10-day
+guarantee dropped. Retainer = the placement service (sourcing → placement coordination).

@@ -32,3 +32,12 @@ invocations / 100GB bandwidth — ample for 4 static pages + one contact endpoin
 Adapter: `npx astro add netlify`. Cloudflare Pages was the alternative (also
 free + commercial-OK) but its Workers runtime means calling Postmark via fetch
 instead of the SDK.
+
+## 2026-07-07 — Service model = placement; guarantee dropped
+Confirmed model: source → vet → shortlist → CLIENT selects → placement/onboarding. Supersedes
+any "ready bench / we match / you delegate" framing. Retainer = the placement service (candidate
+sourcing, vetting, shortlist presentation, interview support, placement coordination).
+Claims: "every operator has 2–3 yrs experience + passes a 4-stage skills test" CONFIRMED TRUE —
+retained and stated definitively on Home + How It Works.
+10-day replacement guarantee DROPPED for v1 (supersedes the 2026-07-06 guarantee decision).
+Typography locked: Fraunces (headings) + Inter (body). CTA: gold #D9A441 button + charcoal #2A2A2A text.
