@@ -1,0 +1,35 @@
+---
+import { Image } from "astro:assets";
+import logo from "../assets/logo.png";
+
+const navItems = [
+	{ label: "Home", href: "/" },
+	{ label: "How It Works", href: "/how-it-works" },
+	{ label: "About", href: "/about" },
+	{ label: "Contact", href: "/contact" },
+];
+---
+
+<header class="border-b border-neutral-line bg-white">
+	<div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+		<a href="/" aria-label="RemoteKind home">
+			<Image src={logo} alt="RemoteKind" width={140} height={140} class="h-auto w-32" />
+		</a>
+		<nav aria-label="Primary">
+			<ul class="flex gap-8 font-body text-neutral-ink">
+				{
+					navItems.map((item) => (
+						<li>
+							<a
+								href={item.href}
+								class="hover:text-deep-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-charcoal"
+							>
+								{item.label}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</nav>
+	</div>
+</header>

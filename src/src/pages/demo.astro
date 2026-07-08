@@ -1,0 +1,57 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const swatches = [
+	{ name: "Gold", class: "bg-brand-gold" },
+	{ name: "Lavender", class: "bg-brand-lavender" },
+	{ name: "Sage", class: "bg-brand-sage" },
+	{ name: "Charcoal", class: "bg-brand-charcoal" },
+	{ name: "Gold deep", class: "bg-deep-gold" },
+	{ name: "Sage deep", class: "bg-deep-sage" },
+	{ name: "Cream", class: "border border-neutral-line bg-neutral-cream" },
+	{ name: "Line", class: "bg-neutral-line" },
+];
+---
+
+<Layout title="Design system preview — RemoteKind">
+	<div class="mx-auto max-w-4xl px-6 py-16">
+		<p class="mb-8 inline-block rounded bg-neutral-cream px-3 py-1 font-body text-sm text-neutral-muted">
+			Temporary Phase 1 preview — remove before Phase 2.
+		</p>
+
+		<h1 class="text-4xl font-medium">Fraunces heading, Inter body</h1>
+		<p class="mt-4 max-w-prose leading-relaxed">
+			This paragraph is set in Inter to confirm the body typeface, line-height, and warm
+			neutral body colour are wired correctly.
+		</p>
+
+		<h2 class="mt-12 mb-4 text-2xl">Palette</h2>
+		<div class="grid grid-cols-2 gap-4 sm:grid-cols-4">
+			{
+				swatches.map((s) => (
+					<div>
+						<div class={`h-16 w-full rounded ${s.class}`} />
+						<p class="mt-2 text-sm text-neutral-body">{s.name}</p>
+					</div>
+				))
+			}
+		</div>
+
+		<h2 class="mt-12 mb-4 text-2xl">Buttons & links</h2>
+		<div class="flex flex-wrap items-center gap-4">
+			<a
+				href="#"
+				class="rounded bg-brand-gold px-6 py-3 font-medium text-brand-charcoal hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-charcoal"
+			>
+				Book a call
+			</a>
+			<a
+				href="#"
+				class="rounded bg-brand-charcoal px-6 py-3 font-medium text-white hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-charcoal"
+			>
+				Secondary action
+			</a>
+			<a href="#" class="text-deep-sage hover:text-brand-charcoal">A sage-deep link</a>
+		</div>
+	</div>
+</Layout>
