@@ -1,0 +1,42 @@
+---
+interface Step {
+	title: string;
+	body: string;
+}
+
+interface Props {
+	id?: string;
+	heading: string;
+	steps: Step[];
+	ctaLabel?: string;
+	ctaHref?: string;
+}
+
+const { id, heading, steps, ctaLabel, ctaHref } = Astro.props;
+---
+
+<section id={id} class="mx-auto max-w-5xl px-6 py-16">
+	<h2 class="text-center text-2xl md:text-3xl">{heading}</h2>
+	<ol class="mt-10 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+		{
+			steps.map((step) => (
+				<li>
+					<h3 class="text-lg">{step.title}</h3>
+					<p class="mt-2 text-sm leading-relaxed">{step.body}</p>
+				</li>
+			))
+		}
+	</ol>
+	{
+		ctaLabel && ctaHref && (
+			<div class="mt-10 text-center">
+				<a
+					href={ctaHref}
+					class="inline-block rounded bg-brand-gold px-8 py-3 font-medium text-brand-charcoal hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-charcoal"
+				>
+					{ctaLabel}
+				</a>
+			</div>
+		)
+	}
+</section>

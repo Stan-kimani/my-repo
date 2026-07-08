@@ -1,0 +1,79 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import CtaBand from "../components/CtaBand.astro";
+import founder1 from "../assets/founder-1.jpg";
+import founder2 from "../assets/founder-2.jpeg";
+import founder3 from "../assets/founder-3.jpeg";
+
+const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL;
+
+const founders = [
+	{
+		photo: founder2,
+		bio: "[Founder Name] — [role]. [one true line of background.]",
+	},
+	{
+		photo: founder3,
+		bio: "[Founder Name] — [role]. [one true line of background.]",
+	},
+];
+---
+
+<Layout title="About — RemoteKind">
+	<Hero
+		heading="[PLACEHOLDER — a warm, human one-liner about who's behind RemoteKind]"
+		subhead="[PLACEHOLDER — one sentence: RemoteKind is founder-led, built on a high bar.]"
+	>
+		<Image
+			slot="media"
+			src={founder1}
+			alt="Founder photo placeholder"
+			width={480}
+			height={480}
+			class="mx-auto mb-8 h-64 w-64 rounded object-cover"
+		/>
+	</Hero>
+
+	<section class="mx-auto max-w-3xl px-6 py-16">
+		<h2 class="text-2xl md:text-3xl">Why RemoteKind exists</h2>
+		<p class="mt-4 leading-relaxed">
+			[PLACEHOLDER — the real origin story. Who founded it, their background in VA/ops, and the
+			moment/problem that made them build a placement service instead of just being VAs. Keep it
+			warm and specific. 2–3 short paragraphs.]
+		</p>
+	</section>
+
+	<section class="mx-auto max-w-3xl px-6 py-16">
+		<h2 class="text-2xl md:text-3xl">Meet the team</h2>
+		<div class="mt-8 grid gap-8 md:grid-cols-2">
+			{
+				founders.map((founder) => (
+					<div class="text-center">
+						<Image
+							src={founder.photo}
+							alt="Founder photo placeholder"
+							width={320}
+							height={320}
+							class="mx-auto h-40 w-40 rounded object-cover"
+						/>
+						<p class="mt-4 leading-relaxed">{founder.bio}</p>
+					</div>
+				))
+			}
+		</div>
+	</section>
+
+	<section class="mx-auto max-w-3xl px-6 py-16">
+		<h2 class="text-2xl md:text-3xl">The bar we hold</h2>
+		<p class="mt-4 leading-relaxed">
+			We don't place anyone we wouldn't trust with our own business. Every operator brings 2–3
+			years of executive support experience and passes our rigorous 4-stage skills test before
+			they ever reach your shortlist. [PLACEHOLDER — optional: one line on the vetting philosophy
+			in the founder's own words.]
+		</p>
+	</section>
+
+	<CtaBand heading="Let's find your person" ctaLabel="Book a call" ctaHref={calendlyUrl} />
+</Layout>

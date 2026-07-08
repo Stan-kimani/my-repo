@@ -1,9 +1,108 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import Steps from "../components/Steps.astro";
+import Testimonial from "../components/Testimonial.astro";
+import CtaBand from "../components/CtaBand.astro";
+
+const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL;
+
+const steps = [
+	{
+		title: "Step 1 — Discovery",
+		body: "A short consultation to understand your business, the role you need filled, and the qualities that matter most in your ideal assistant. No generic intake form — a real conversation.",
+	},
+	{
+		title: "Step 2 — Sourcing",
+		body: "We search for qualified candidates who match your requirements, skills needs, and working style.",
+	},
+	{
+		title: "Step 3 — Vetting",
+		body: "Every candidate completes our rigorous 4-stage skills test, and each brings 2–3 years of executive support experience. We assess fit, reliability, and communication — so only proven people reach your shortlist.",
+	},
+	{
+		title: "Step 4 — Placement",
+		body: "We present the strongest candidates for your review, support your selection, and move everything smoothly into onboarding — so you can delegate and reclaim your time.",
+	},
+];
 ---
 
-<Layout title="RemoteKind">
-	<div class="mx-auto max-w-4xl px-6 py-16">
-		<p>Home page coming in Phase 2. See <a href="/demo" class="text-deep-sage hover:text-brand-charcoal">/demo</a> for the design system preview.</p>
-	</div>
+<Layout title="RemoteKind — The leverage of a great operator">
+	<Hero
+		heading="The leverage of a great operator — without the hiring risk."
+		subhead="RemoteKind sources and vets the right remote operator for overwhelmed founders — so you can hand off the day-to-day and get back to the work only you can do."
+		ctaLabel="Book a call"
+		ctaHref={calendlyUrl}
+		secondaryLabel="Or see how it works ↓"
+		secondaryHref="#how-it-works"
+	/>
+
+	<section class="mx-auto max-w-3xl px-6 py-16">
+		<h2 class="text-2xl md:text-3xl">You're the bottleneck. And you know it.</h2>
+		<p class="mt-4 leading-relaxed">
+			You crossed six figures by being the person who does everything. But the thing that got
+			you here is now the thing holding you back. Your calendar is full of work that doesn't
+			need you — inbox triage, invoices, scheduling, follow-ups — and the growth that does need
+			you keeps getting pushed to "later."
+		</p>
+		<p class="mt-4 leading-relaxed">
+			You don't need another tool. You don't need to hustle harder. You need to stop being the
+			operator of your own business.
+		</p>
+	</section>
+
+	<section class="mx-auto max-w-3xl px-6 py-16">
+		<h2 class="text-2xl md:text-3xl">Imagine handing it off — to someone you actually trust.</h2>
+		<p class="mt-4 leading-relaxed">
+			The right operator doesn't just complete tasks. They take ownership of the moving parts,
+			so you stop context-switching and start thinking again. Your mornings open up. The small
+			fires get handled before they reach you. And the growth work you keep postponing finally
+			gets your full attention.
+		</p>
+		<p class="mt-4 leading-relaxed">That's not a virtual assistant. That's leverage.</p>
+	</section>
+
+	<Steps
+		id="how-it-works"
+		heading="How RemoteKind works"
+		steps={steps}
+		ctaLabel="Book a call"
+		ctaHref={calendlyUrl}
+	/>
+
+	<section class="mx-auto max-w-3xl px-6 py-16">
+		<h2 class="text-2xl md:text-3xl">Why not just hire someone yourself?</h2>
+		<p class="mt-4 leading-relaxed">
+			You could. But you'd sift a hundred applicants, gamble on one, and manage the risk if it
+			doesn't work out — time you don't have. RemoteKind exists so you skip all of it:
+		</p>
+		<ul class="mt-6 space-y-4">
+			<li>
+				<strong class="text-neutral-ink">Vetted, not gambled.</strong> Every operator has 2–3 years
+				of executive support experience and passes a rigorous 4-stage skills test — we only work
+				with the best.
+			</li>
+			<li>
+				<strong class="text-neutral-ink">Chosen for you.</strong> Candidates selected for your requirements
+				and working style, not just availability.
+			</li>
+			<li>
+				<strong class="text-neutral-ink">We run the whole search.</strong> Discovery, sourcing, vetting,
+				and a curated shortlist — you skip the hundred applicants and choose from the best.
+			</li>
+		</ul>
+	</section>
+
+	<Testimonial
+		quote="RemoteKind took operations off my plate so I could focus on growth. I got back 10+ hours a week."
+		name="Lynet"
+		role="Founder"
+	/>
+
+	<CtaBand
+		heading="Ready to stop being the bottleneck?"
+		body="One call is all it takes to see what handing it off could look like. No pressure, no pitch — just a conversation about where you're losing time and whether we're the fit to fix it."
+		ctaLabel="Book a call"
+		ctaHref={calendlyUrl}
+	/>
 </Layout>

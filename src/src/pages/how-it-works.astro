@@ -1,0 +1,76 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import Steps from "../components/Steps.astro";
+import CtaBand from "../components/CtaBand.astro";
+
+const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL;
+
+const steps = [
+	{
+		title: "Step 1 — Discovery",
+		body: "We start with a short consultation to understand your business, the role you need filled, and the qualities that matter most in your ideal virtual assistant.",
+	},
+	{
+		title: "Step 2 — Sourcing",
+		body: "We search for qualified candidates who match your requirements, skills needs, and working style.",
+	},
+	{
+		title: "Step 3 — Vetting",
+		body: "Every candidate completes our rigorous 4-stage skills test and brings 2–3 years of executive support experience. We assess fit, reliability, and communication — so only proven people reach your shortlist.",
+	},
+	{
+		title: "Step 4 — Placement",
+		body: "We present the strongest candidates for your review, support the selection process, and help move everything forward smoothly into onboarding.",
+	},
+];
+---
+
+<Layout title="How It Works — RemoteKind">
+	<Hero
+		heading="Delegating shouldn't feel like a gamble."
+		subhead="Finding the right person is the hard part. RemoteKind runs a careful, proven process to source, vet, and place a virtual assistant who fits your business — so you can hand work off with confidence."
+		ctaLabel="Book a call"
+		ctaHref={calendlyUrl}
+	/>
+
+	<Steps heading="How RemoteKind works" steps={steps} ctaLabel="Book a call" ctaHref={calendlyUrl} />
+
+	<section class="mx-auto max-w-3xl px-6 py-16">
+		<h2 class="text-2xl md:text-3xl">What your retainer includes</h2>
+		<p class="mt-4 leading-relaxed">
+			Your retainer typically includes candidate sourcing, vetting, shortlist presentation,
+			interview support, and placement coordination.
+		</p>
+	</section>
+
+	<section class="mx-auto max-w-3xl px-6 py-16">
+		<h2 class="text-2xl md:text-3xl">Why not just hire someone yourself?</h2>
+		<p class="mt-4 leading-relaxed">
+			You could. But you'd sift a hundred applicants, screen them alone, and carry the risk if
+			it doesn't work out — time you don't have. RemoteKind runs the whole process for you:
+		</p>
+		<ul class="mt-6 space-y-4">
+			<li>
+				<strong class="text-neutral-ink">A proven process, not a gamble.</strong> Discovery, sourcing,
+				and careful vetting before anyone reaches your shortlist.
+			</li>
+			<li>
+				<strong class="text-neutral-ink">Matched to you.</strong> Candidates chosen for your requirements
+				and working style, not just availability.
+			</li>
+			<li>
+				<strong class="text-neutral-ink">Vetted to a real bar.</strong> Every operator has 2–3 years
+				of experience and passes a 4-stage skills test — the search and screening are done before
+				anyone reaches you.
+			</li>
+		</ul>
+	</section>
+
+	<CtaBand
+		heading="See what handing it off could look like"
+		body="One call is all it takes. No pressure, no pitch — just a conversation about the role you need filled and how we'd find the right person for it."
+		ctaLabel="Book a call"
+		ctaHref={calendlyUrl}
+	/>
+</Layout>

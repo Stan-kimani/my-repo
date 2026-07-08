@@ -11,12 +11,12 @@ const navItems = [
 ---
 
 <header class="border-b border-neutral-line bg-white">
-	<div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+	<div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-4">
 		<a href="/" aria-label="RemoteKind home">
-			<Image src={logo} alt="RemoteKind" width={140} height={140} class="h-auto w-32" />
+			<Image src={logo} alt="RemoteKind" width={140} height={140} class="h-auto w-24 md:w-32" />
 		</a>
 		<nav aria-label="Primary">
-			<ul class="flex gap-8 font-body text-neutral-ink">
+			<ul class="flex flex-wrap gap-x-4 gap-y-2 text-sm text-neutral-ink md:gap-x-8 md:text-base">
 				{
 					navItems.map((item) => (
 						<li>

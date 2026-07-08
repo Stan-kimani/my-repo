@@ -1,0 +1,16 @@
+---
+interface Props {
+	quote: string;
+	name: string;
+	role: string;
+}
+
+const { quote, name, role } = Astro.props;
+---
+
+<figure class="mx-auto max-w-2xl px-6 py-16 text-center">
+	<blockquote class="text-xl leading-relaxed md:text-2xl">
+		<p>&ldquo;{quote}&rdquo;</p>
+	</blockquote>
+	<figcaption class="mt-4 text-neutral-muted">— {name}, {role}</figcaption>
+</figure>
