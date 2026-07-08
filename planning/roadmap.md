@@ -12,14 +12,14 @@ Calendly + Postmark, single-CTA launch, warm brand palette (gold/lavender/sage/c
 - [x] Brand assets placed — reference/brand/ (logo, colours, 5 founder photos)
 - [x] brand.md — full brand system (palette, accessibility rules, typography, principles)
 - [x] inspiration.md — competitors + design direction
-- [ ] About copy — samples/about.md  (BLOCKED: needs founder bios + who's in the photos)
-- [ ] Contact copy — samples/contact.md  (BLOCKED: needs Calendly link + inbox email)
+- [x] About copy — samples/about.md (PLACEHOLDER structure; real bio swapped before launch)
+- [x] Contact copy — samples/contact.md (PLACEHOLDER Calendly/email; real values before launch)
 
 ## Decisions still open (cheap, but needed before build)
 - [x] Typography: A — Fraunces (headings) + Inter (body)
 - [x] CTA colour: gold button (#D9A441) + charcoal text (#2A2A2A)
 - [x] How It Works process (Discovery/Sourcing/Vetting/Placement) + retainer provided
-- [ ] RECONCILE homepage.md + decisions.md to the placement model (see samples/how-it-works.md open items)
+- [x] Reconciled all copy to the placement model; guarantee dropped; claims confirmed
 - [ ] Logo: export SVG for retina/hero (PNG is 500×500)
 
 ## Build setup (in VS Code / Claude Code)
@@ -37,6 +37,14 @@ Calendly + Postmark, single-CTA launch, warm brand palette (gold/lavender/sage/c
 - [ ] Env vars locally (.env) + Netlify dashboard: POSTMARK_SERVER_TOKEN, CONTACT_TO_EMAIL,
       CONTACT_FROM_EMAIL, PUBLIC_CALENDLY_URL
 - [ ] Deploy to Netlify + connect custom domain
+
+## Pre-launch swap checklist (placeholders that MUST become real before going live)
+- [ ] About: replace all [PLACEHOLDER] bio/story with real founder facts + names
+- [ ] Calendly: PUBLIC_CALENDLY_URL -> real event link
+- [ ] Postmark: POSTMARK_API_TEST -> real server token; verify sender domain
+- [ ] Contact emails: real inbox (CONTACT_TO_EMAIL) + verified sender (CONTACT_FROM_EMAIL)
+- [ ] Logo: swap 500px PNG for SVG if available
+- [ ] Final grep: no "[PLACEHOLDER]" or "POSTMARK_API_TEST" strings remain
 
 ## Later — post-v1 (deferred on purpose)
 - [ ] Newsletter ESP + lead magnet PDF ("10 Tasks to Delegate Today")
