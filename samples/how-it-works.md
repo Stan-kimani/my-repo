@@ -1,99 +1,93 @@
-Hero
-Heading: Delegating shouldn't feel like a gamble.
-Subhead: RemoteKind exists to take the risk out of getting help. Here's exactly how we match you with an operator you can trust — and what happens if we don't get it right.
-CTA: Book a call
+# How It Works — page copy (DRAFT)
 
-The 3 steps
-Heading: Three steps to getting your time back
+Voice: premium, calm, confident. This is the TRUST page — it answers "how do I know I'll
+get someone good?" Single CTA: Book a call.
 
-Step 1 — Book a discovery call
-We start with a real conversation, not a form. We learn your business, how you work, and where your time is actually leaking — so any match is based on your reality, not a résumé.
+> RECONCILIATION PENDING: this page now describes a sourcing/shortlist/placement model.
+> The finalized homepage describes a "matched from a vetted bench, you delegate" model with
+> hard claims (2–3 yrs, 4-stage test, 10-day guarantee). See "Open items" — homepage.md and
+> decisions.md must be reconciled to match before build.
 
-Step 2 — We match you with a vetted operator
-This is the part you can't do alone at speed. We hand-select from our own bench of pre-screened operators — every one with 2–3 years of executive support experience and a passed 4-stage skills test. We match for skills and working style, not just who's free.
+---
 
-Step 3 — You delegate and reclaim your time
-We run a 90-minute handoff session and hand you a delegation playbook, so day one is smooth instead of chaotic. Then it runs — one vetted operator, one simple monthly retainer, and ongoing support whenever you need it.
+## Hero
 
-CTA: Book a call
+**Heading:** Delegating shouldn't feel like a gamble.
 
-What "vetted" actually means
-Heading: What "vetted" actually means
+**Subhead:** Finding the right person is the hard part. RemoteKind runs a careful, proven
+process to source, vet, and place a virtual assistant who fits your business — so you can
+hand work off with confidence.
 
-Anyone can say "vetted." Here's our bar: every operator has 2–3 years of executive support experience and passes a rigorous 4-stage skills test before they ever reach our bench. We only work with the best — so you're choosing from people already proven, not gambling on an unknown.
+**CTA:** Book a call
 
-Our 4-stage vetting process:
+---
 
-Application & experience screen — background, communication clarity, and role relevance.
+## The process
 
-Practical skills assessment — inbox management, calendar coordination, research, and task execution under time constraints.
+**Heading:** How RemoteKind works
 
-Live scenario simulation — real-world delegation tasks assessed for judgment, prioritization, and communication.
+**Step 1 — Discovery**
+We start with a short consultation to understand your business, the role you need filled,
+and the qualities that matter most in your ideal virtual assistant.
 
-Reference checks & paid trial task — verification of past performance plus a short paid task to confirm consistency.
+**Step 2 — Sourcing**
+We search for qualified candidates who match your requirements, skills needs, and working style.
 
-Why not just hire someone yourself?
-Heading: Why not just hire someone yourself?
+**Step 3 — Vetting**
+Every candidate goes through a careful review process that may include screening, skills
+checks, and an assessment of fit, reliability, and communication.
 
-You could. But you'd sift a hundred applicants, gamble on one, and carry the risk if it doesn't work out — time you don't have. RemoteKind exists so you skip all of it:
+**Step 4 — Placement**
+We present the strongest candidates for your review, support the selection process, and help
+move everything forward smoothly into onboarding.
 
-Vetted, not gambled. 2–3 years' experience + a passed 4-stage skills test. We only work with the best.
-Matched to you. Chosen for your workflow and working style, not just availability.
-10-day replacement guarantee. If it's not the right fit within your first 10 days, we re-match you — no questions asked, no extra cost.
+**CTA:** Book a call
 
-What's included
-Heading: What your retainer includes
+---
 
-A simple, predictable setup designed to give you consistent support without management overhead:
+## What your retainer includes
 
-Dedicated operator time — a set monthly allocation of support hours aligned to your needs (typically part-time, with the ability to scale).
+**Heading:** What your retainer includes
 
-One primary operator — a consistent point of contact who learns your systems, preferences, and workflows.
+Your retainer typically includes candidate sourcing, vetting, shortlist presentation,
+interview support, and placement coordination.
 
-Structured onboarding — a 90-minute handoff session plus a practical delegation playbook to get you operational from day one.
+---
 
-Ongoing support & check-ins — light-touch account support to ensure things stay on track and issues are resolved quickly.
+## Why not just hire someone yourself?
 
-Replacement coverage — fast rematch if your operator is unavailable or not the right fit within the guarantee period.
+**Heading:** Why not just hire someone yourself?
 
-Standard communication channels — Slack, email, and shared task tools (e.g. Notion, Asana, ClickUp), integrated into your existing workflow.
+You could. But you'd sift a hundred applicants, screen them alone, and carry the risk if it
+doesn't work out — time you don't have. RemoteKind runs the whole process for you:
 
-Final CTA
-Heading: See what handing it off could look like
+- **A proven process, not a gamble.** Discovery, sourcing, and careful vetting before anyone
+  reaches your shortlist.
+- **Matched to you.** Candidates chosen for your requirements and working style, not just availability.
+- [RECONCILE: replacement guarantee — the homepage promises a 10-day re-match. Confirm the
+  guarantee terms under this placement model so this bullet is accurate.]
 
-One call is all it takes. No pressure, no pitch — just a conversation about where you're losing time and whether we're the right fit to fix it.
+---
 
-CTA: Book a call
+## Final CTA
 
-Reasoning Behind Key Choices
-1. Vetting stages (made concrete but scalable)
+**Heading:** See what handing it off could look like
 
-The 4 stages reflect what credible remote staffing firms actually do today.
+One call is all it takes. No pressure, no pitch — just a conversation about the role you need
+filled and how we'd find the right person for it.
 
-Including a live simulation and paid trial task is especially important — it signals real-world validation, not just theoretical screening.
+**CTA:** Book a call
 
-This structure scales well because each stage can be standardized and delegated internally.
+---
 
-2. Retainer design (clear but flexible)
-
-Avoids locking you into exact hours publicly while still setting expectations.
-
-Emphasizes “dedicated operator + structured onboarding + ongoing support,” which are the real differentiators vs freelancers.
-
-Includes replacement and communication norms — key trust drivers for buyers.
-
-3. Positioning choices
-
-Everything reinforces risk removal, not just convenience.
-
-Language avoids overpromising (e.g., no unrealistic guarantees of performance, just process reliability).
-
-Keeps operations believable for a lean but growing agency (no 24/7 support claims, no unrealistic scale promises).
-
-4. Internal consistency
-
-The 4-stage vetting ties directly into earlier claims.
-
-The retainer aligns with the “one operator, monthly model” mentioned in Step 3.
-
-The 10-day guarantee is supported operationally by having a “bench” and rematch process
+## Open items — reconciliation with homepage (do before build)
+1. Bench vs sourcing: homepage says "hand-select from our bench of pre-screened operators";
+   this process says "we search for qualified candidates who match your requirements." Pick the true one.
+2. Match vs select: homepage says "we match you… you delegate"; this process says "we present
+   candidates for your review… support the selection process." The client selecting is different
+   from being matched — align both pages.
+3. Vetting claims: homepage states, definitively, "all operators have 2–3 years of experience
+   and pass a 4-stage skills test." This process says vetting "may include screening, skills
+   checks." Confirm whether the hard claims are literally true for every placement, or soften them.
+4. Retainer meaning: homepage frames the monthly retainer as "one operator + ongoing support";
+   here it's the placement service (sourcing→placement coordination). Clarify what the client pays for.

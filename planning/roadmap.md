@@ -16,9 +16,10 @@ Calendly + Postmark, single-CTA launch, warm brand palette (gold/lavender/sage/c
 - [ ] Contact copy — samples/contact.md  (BLOCKED: needs Calendly link + inbox email)
 
 ## Decisions still open (cheap, but needed before build)
-- [ ] Typography: confirm A (Fraunces + Inter) or B (all Inter)
-- [ ] CTA colour: confirm gold button + charcoal text (recommended) vs charcoal button
-- [ ] How It Works: name the 4 vetting stages + retainer inclusions, or keep high-level
+- [x] Typography: A — Fraunces (headings) + Inter (body)
+- [x] CTA colour: gold button (#D9A441) + charcoal text (#2A2A2A)
+- [x] How It Works process (Discovery/Sourcing/Vetting/Placement) + retainer provided
+- [ ] RECONCILE homepage.md + decisions.md to the placement model (see samples/how-it-works.md open items)
 - [ ] Logo: export SVG for retina/hero (PNG is 500×500)
 
 ## Build setup (in VS Code / Claude Code)

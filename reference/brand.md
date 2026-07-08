@@ -95,10 +95,9 @@ is the premium signal — space, not saturation.
 
 ## 5. Typography
 
-Pick one (rec: **A**), load via Fontsource/Google Fonts in the base Layout.
-- **A) Warm serif headings + clean sans body — RECOMMENDED.** Fraunces (headings) + Inter (body).
-  The soft, high-end serif matches the warm palette and boutique personality; Inter keeps body crisp.
-- **B) All-sans.** Inter throughout. Safe and modern, but gives up the editorial warmth.
+**Confirmed:** Fraunces (headings) + Inter (body). Load via Fontsource/Google Fonts in the base
+Layout. The soft, high-end serif matches the warm palette and boutique personality; Inter keeps body
+text crisp and legible.
 
 Rules: sentence case headings (human, not shouty caps); generous line-height (~1.7 body); two body
 weights (regular + medium). If the logo uses a specific display face, mirror it in H1/H2.
