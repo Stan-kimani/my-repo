@@ -12,16 +12,21 @@ const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL || "https://calendly.com
 const founders = [
 	{
 		photo: founder2,
+		alt: "Founder photo placeholder 1",
 		bio: "[Founder Name] — [role]. [one true line of background.]",
 	},
 	{
 		photo: founder3,
+		alt: "Founder photo placeholder 2",
 		bio: "[Founder Name] — [role]. [one true line of background.]",
 	},
 ];
 ---
 
-<Layout title="About — RemoteKind">
+<Layout
+	title="About — RemoteKind"
+	description="Meet the people behind RemoteKind and the standard every operator has to meet before they ever reach your shortlist."
+>
 	<Hero
 		heading="[PLACEHOLDER — a warm, human one-liner about who's behind RemoteKind]"
 		subhead="[PLACEHOLDER — one sentence: RemoteKind is founder-led, built on a high bar.]"
@@ -29,7 +34,7 @@ const founders = [
 		<Image
 			slot="media"
 			src={founder1}
-			alt="Founder photo placeholder"
+			alt="Founder photo placeholder — primary"
 			width={480}
 			height={480}
 			class="mx-auto mb-8 h-64 w-64 rounded object-cover"
@@ -53,7 +58,7 @@ const founders = [
 					<div class="text-center">
 						<Image
 							src={founder.photo}
-							alt="Founder photo placeholder"
+							alt={founder.alt}
 							width={320}
 							height={320}
 							class="mx-auto h-40 w-40 rounded object-cover"

@@ -7,6 +7,10 @@ import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
+  // PLACEHOLDER — swap for the real production domain before launch (needed for
+  // absolute Open Graph / canonical URLs). See planning/decisions.md.
+  site: 'https://remotekind.co',
+
   vite: {
     plugins: [tailwindcss()]
   },

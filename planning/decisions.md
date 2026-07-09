@@ -1,3 +1,10 @@
+## 2026-07-09 — Placeholder production domain for OG/canonical URLs
+Open Graph and canonical `<link>` tags need an absolute site URL, set via Astro's
+`site` config. No domain has been locked yet, so `astro.config.mjs` uses
+`https://remotekind.co` (matches the working inbox domain, info@remotekind.co) as a
+PLACEHOLDER. Confirm the real production domain and update `site` before launch —
+add to the pre-launch swap checklist alongside PUBLIC_CALENDLY_URL / CONTACT_TO_EMAIL.
+
 ## 2026-07-06 — Integrations: Calendly + Postmark
 Booking (primary CTA) = Calendly, client-side embed/link, no server.
 Contact form email = Postmark (transactional), via one on-demand Astro endpoint
