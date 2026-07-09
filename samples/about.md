@@ -1,53 +1,40 @@
-# About — page copy (PLACEHOLDER — structure real, bio to be swapped before launch)
+# About — page copy (PLACEHOLDER — solo founder-led; real bio before launch)
 
-Voice: premium, calm, warm, human. This page carries trust — the founder story is the
-proof. Real founder photos exist in reference/brand/ (founder-1.jpg … founder-5.jpeg).
-Single CTA: Book a call. Everything in [PLACEHOLDER] must be replaced with true facts
-before the site goes live — do NOT publish placeholder claims.
+Voice: premium, calm, warm, personal. RemoteKind is led by Mary as a SOLO founder — the
+page is first-person ("I"), and the founder's story IS the trust. Single CTA: Book a call.
+All photos in reference/brand/ are of Mary; pick the strongest 1–2. Everything in
+[PLACEHOLDER] must be replaced with true facts before launch.
 
 ---
 
 ## Hero
 
-**Heading:** [PLACEHOLDER — a warm, human one-liner about who's behind RemoteKind]
-e.g. "The people who'd never hand you someone they wouldn't hire themselves."
+**Heading:** [PLACEHOLDER — a warm, human one-liner introducing Mary as the person behind RemoteKind]
+e.g. "I'd never hand you someone I wouldn't hire myself."
 
-**Subhead:** [PLACEHOLDER — one sentence: RemoteKind is founder-led, built on a high bar.]
+**Subhead:** [PLACEHOLDER — one sentence: RemoteKind is founder-led, built on a personal high bar.]
 
-Image: founder photo (use founder-1.jpg as primary; others in a small gallery).
+Image: Mary's photo (founder-1 as primary).
 
 ---
 
 ## The story
 
-**Heading:** Why RemoteKind exists
+**Heading:** Why I started RemoteKind
 
-[PLACEHOLDER — the real origin story. Who founded it, their background in VA/ops, and the
-moment/problem that made them build a placement service instead of just being VAs. Keep it
-warm and specific. 2–3 short paragraphs.]
-
----
-
-## The founders
-
-**Heading:** Meet the team
-
-[PLACEHOLDER — name + one-line role + 1–2 sentence bio for each founder pictured. Only real
-names, real experience. Pair each with their photo (founder-1 … founder-5).]
-
-- [Founder Name] — [role]. [one true line of background.]
-- [Founder Name] — [role]. [one true line of background.]
+[PLACEHOLDER — Mary's real story, first person. Her background in VA/ops, and the moment/problem
+that made her build a placement service instead of just doing the work herself. Warm and specific.
+2–3 short paragraphs.]
 
 ---
 
 ## The standard
 
-**Heading:** The bar we hold
+**Heading:** The bar I hold
 
-We don't place anyone we wouldn't trust with our own business. Every operator brings 2–3
-years of executive support experience and passes our rigorous 4-stage skills test before
-they ever reach your shortlist. [PLACEHOLDER — optional: one line on the vetting philosophy
-in the founder's own words.]
+I don't place anyone I wouldn't trust with my own business. Every operator brings 2–3 years of
+executive support experience and passes my rigorous 4-stage skills test before they ever reach
+your shortlist. [PLACEHOLDER — optional: one line on the vetting philosophy in Mary's own words.]
 
 ---
 
@@ -60,7 +47,11 @@ in the founder's own words.]
 ---
 
 ## To replace before launch
-- Hero + subhead (real, warm, specific)
-- The full origin story
-- Real founder names, roles, bios — matched to photos
+- Hero + subhead (real, warm, personal)
+- The full first-person origin story
 - Optional vetting-philosophy line
+- Choose the strongest 1–2 photos of Mary
+
+## Note
+No "meet the team" section — RemoteKind is solo founder-led. Home / How It Works / Contact keep
+"we" (standard business voice); only About is first-person.
