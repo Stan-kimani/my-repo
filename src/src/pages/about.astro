@@ -6,6 +6,21 @@ import CtaBand from "../components/CtaBand.astro";
 import founder1 from "../assets/founder-1.jpg";
 
 const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL || "https://calendly.com/remotekind/discovery-call";
+
+const points = [
+	{
+		lead: "2–3 years of real executive support experience",
+		rest: "every operator, no exceptions.",
+	},
+	{
+		lead: "A four-stage skills test",
+		rest: "cleared before anyone reaches your shortlist.",
+	},
+	{
+		lead: "People I'd trust inside my own business",
+		rest: "I place operators who make a founder's life measurably lighter, not someone who's merely available.",
+	},
+];
 ---
 
 <Layout
@@ -13,36 +28,62 @@ const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL || "https://calendly.com
 	description="Meet Mary, the founder behind RemoteKind, and the personal standard every operator has to meet before they ever reach your shortlist."
 >
 	<Hero
-		heading="[PLACEHOLDER — a warm, human one-liner introducing Mary as the person behind RemoteKind]"
-		subhead="[PLACEHOLDER — one sentence: RemoteKind is founder-led, built on a personal high bar.]"
+		eyebrow="Hi, I'm Mary"
+		heading="I know both sides — because I've lived both sides."
+		subhead="I'm a Kenyan founder building RemoteKind from Bangkok. For the past four years I've worked at the center of the remote work industry — training operators to perform at a high level, and helping entrepreneurs find the ones actually worth hiring."
 	>
-		<Image
-			slot="media"
-			src={founder1}
-			alt="Founder photo placeholder — primary"
-			width={480}
-			height={480}
-			class="mx-auto mb-8 h-64 w-64 rounded object-cover"
-		/>
+		<div slot="media" class="mx-auto mb-8 aspect-[4/5] w-full max-w-xs overflow-hidden rounded">
+			<Image
+				src={founder1}
+				alt="Mary, founder of RemoteKind"
+				width={480}
+				height={600}
+				class="h-full w-full object-cover"
+			/>
+		</div>
 	</Hero>
 
-	<section class="mx-auto max-w-3xl px-6 py-16">
-		<h2 class="text-2xl md:text-3xl">Why I started RemoteKind</h2>
-		<p class="mt-4 leading-relaxed">
-			[PLACEHOLDER — Mary's real story, first person. Her background in VA/ops, and the
-			moment/problem that made her build a placement service instead of just doing the work
-			herself. Warm and specific. 2–3 short paragraphs.]
+	<section class="bg-neutral-cream px-6 py-16">
+		<div class="mx-auto max-w-3xl">
+			<h2 class="text-2xl md:text-3xl">Why I started RemoteKind</h2>
+			<p class="mt-4 leading-relaxed">
+				I've spent the last four years inside the remote work world — not observing it,
+				building in it. I train virtual assistants and operators to do genuinely excellent
+				work, and I've watched the other side of that equation up close: talented founders
+				buried in tasks they should never touch, hiring on hope, and paying for it in burnout
+				and lost momentum.
+			</p>
+			<p class="mt-4 leading-relaxed">
+				The problem was never a shortage of talent. It was the gap between the founders who
+				needed leverage and the operators good enough to deliver it — with no reliable bridge
+				between them. Volume isn't the answer. The right person is.
+			</p>
+			<p class="mt-4 leading-relaxed">I built the thing I wished existed on both sides of the table.</p>
+		</div>
+	</section>
+
+	<section class="bg-brand-lavender/20 px-6 py-20 text-center">
+		<p class="mx-auto max-w-3xl font-heading text-3xl leading-snug text-neutral-ink md:text-4xl">
+			&ldquo;&lsquo;Available&rsquo; and &lsquo;excellent&rsquo; are not the same word.&rdquo;
 		</p>
 	</section>
 
-	<section class="mx-auto max-w-3xl px-6 py-16">
-		<h2 class="text-2xl md:text-3xl">The bar I hold</h2>
-		<p class="mt-4 leading-relaxed">
-			I don't place anyone I wouldn't trust with my own business. Every operator brings 2–3
-			years of executive support experience and passes my rigorous 4-stage skills test before
-			they ever reach your shortlist. [PLACEHOLDER — optional: one line on the vetting
-			philosophy in Mary's own words.]
-		</p>
+	<section class="px-6 py-16">
+		<div class="mx-auto max-w-3xl">
+			<h2 class="text-2xl md:text-3xl">The bar I hold</h2>
+			<p class="mt-4 leading-relaxed">That's why RemoteKind holds a hard line on quality:</p>
+			<ul class="mt-8 space-y-6">
+				{
+					points.map((point) => (
+						<li class="border-l-2 border-brand-sage pl-4">
+							<p class="leading-relaxed">
+								<strong class="text-neutral-ink">{point.lead}</strong> — {point.rest}
+							</p>
+						</li>
+					))
+				}
+			</ul>
+		</div>
 	</section>
 
 	<CtaBand heading="Let's find your person" ctaLabel="Book a call" ctaHref={calendlyUrl} />
