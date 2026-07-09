@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero.astro";
 
-const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL;
+const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL || "https://calendly.com/remotekind/discovery-call";
 ---
 
 <Layout title="Contact — RemoteKind">
@@ -13,6 +13,64 @@ const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL;
 		ctaHref={calendlyUrl}
 	/>
 
+	<section class="mx-auto max-w-2xl px-6 pb-16">
+		<div class="calendly-inline-widget" data-url={calendlyUrl} style="min-width:320px;height:700px;"></div>
+	</section>
+	<script is:inline src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+	<section class="mx-auto max-w-xl px-6 py-16">
+		<h2 class="text-2xl md:text-3xl">Send a message</h2>
+		<form id="contact-form" class="mt-6 space-y-4" novalidate>
+			<div>
+				<label for="name" class="block text-sm text-neutral-ink">Name</label>
+				<input
+					id="name"
+					name="name"
+					type="text"
+					required
+					maxlength="200"
+					class="mt-1 w-full rounded border border-neutral-line px-3 py-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-charcoal"
+				/>
+			</div>
+			<div>
+				<label for="email" class="block text-sm text-neutral-ink">Email</label>
+				<input
+					id="email"
+					name="email"
+					type="email"
+					required
+					maxlength="320"
+					class="mt-1 w-full rounded border border-neutral-line px-3 py-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-charcoal"
+				/>
+			</div>
+			<div>
+				<label for="message" class="block text-sm text-neutral-ink">Message</label>
+				<textarea
+					id="message"
+					name="message"
+					required
+					maxlength="5000"
+					rows="5"
+					class="mt-1 w-full rounded border border-neutral-line px-3 py-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-charcoal"
+				></textarea>
+			</div>
+			<div class="sr-only" aria-hidden="true">
+				<label for="company">Company</label>
+				<input id="company" name="company" type="text" tabindex="-1" autocomplete="off" />
+			</div>
+			<button
+				type="submit"
+				class="inline-block rounded bg-brand-charcoal px-8 py-3 font-medium text-white hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-charcoal"
+			>
+				Send message
+			</button>
+			<p id="contact-success" role="status" class="hidden text-deep-sage">
+				Thanks — we've got your message and will be in touch soon.
+			</p>
+			<p id="contact-error" role="alert" class="hidden text-red-700"></p>
+		</form>
+	</section>
+
 	<section class="mx-auto max-w-3xl px-6 py-16">
 		<h2 class="text-2xl md:text-3xl">Direct</h2>
 		<p class="mt-4 leading-relaxed">Email: [PLACEHOLDER] hello@remotekind.com</p>
@@ -21,3 +79,47 @@ const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL;
 		</p>
 	</section>
 </Layout>
+
+<script>
+	const form = document.getElementById("contact-form") as HTMLFormElement;
+	const successEl = document.getElementById("contact-success")!;
+	const errorEl = document.getElementById("contact-error")!;
+	const submitButton = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+
+	form.addEventListener("submit", async (event) => {
+		event.preventDefault();
+		successEl.classList.add("hidden");
+		errorEl.classList.add("hidden");
+		submitButton.disabled = true;
+		submitButton.textContent = "Sending…";
+
+		const formData = new FormData(form);
+
+		try {
+			const response = await fetch("/api/contact", {
+				method: "POST",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify({
+					name: formData.get("name"),
+					email: formData.get("email"),
+					message: formData.get("message"),
+					company: formData.get("company"),
+				}),
+			});
+
+			if (!response.ok) {
+				const data = await response.json().catch(() => ({}));
+				throw new Error(data.error || "Something went wrong. Please try again.");
+			}
+
+			form.reset();
+			successEl.classList.remove("hidden");
+		} catch (err) {
+			errorEl.textContent = err instanceof Error ? err.message : "Something went wrong. Please try again.";
+			errorEl.classList.remove("hidden");
+		} finally {
+			submitButton.disabled = false;
+			submitButton.textContent = "Send message";
+		}
+	});
+</script>
