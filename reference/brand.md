@@ -106,17 +106,18 @@ weights (regular + medium). If the logo uses a specific display face, mirror it 
 
 ## 6. Photography & imagery
 
-Use the **real founder photography** in `reference/brand/` (`founder-1.jpg` … `founder-5.jpeg`).
-Its qualities define the visual tone: natural light, warm tones, authentic, relaxed — polished but human.
+Use the **real founder photography** in `reference/brand/` — all images are of Mary, the solo
+founder. Their qualities define the visual tone: natural light, warm tones, authentic, relaxed —
+polished but human. Feature Mary on About (pick the strongest 1–2) and optionally the Home hero.
 
-- **Do:** feature founders on About and the Home hero; favour warm natural light; leave breathing
-  room; let faces carry trust.
+- **Do:** feature Mary on About; favour warm natural light; leave breathing room; let her face carry trust.
 - **Don't:** generic stock (smiling teams, laptop-at-café), cold/blue-toned images, busy comps.
 - **Treatment:** minimal; keep warm consistency across shots; avoid heavy filters. Pair with cream
   or lavender blocks, not clashing colours.
 
-The founder photos are a strategic asset, not decoration — the human proof that separates
-RemoteKind from institutional competitors.
+Mary's photos are a strategic asset, not decoration — founder-led is the human proof that
+separates RemoteKind from institutional competitors. RemoteKind is solo founder-led; do not
+imply a team.
 
 ---
 

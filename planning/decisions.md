@@ -48,3 +48,10 @@ Claims: "every operator has 2–3 yrs experience + passes a 4-stage skills test"
 retained and stated definitively on Home + How It Works.
 10-day replacement guarantee DROPPED for v1 (supersedes the 2026-07-06 guarantee decision).
 Typography locked: Fraunces (headings) + Inter (body). CTA: gold #D9A441 button + charcoal #2A2A2A text.
+
+## 2026-07-08 — Solo founder-led (Mary)
+RemoteKind is led by Mary as a solo founder — NOT a team. About page = first-person ("I"),
+single founder story + one/two photos of Mary; the "Meet the team" grid is removed. Home /
+How It Works / Contact keep "we" (standard business voice, implies no team). All photos in
+reference/brand/ are of Mary. Founder-led intimacy is a positioning strength for a boutique
+premium service, not a limitation.

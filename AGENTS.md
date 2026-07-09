@@ -88,4 +88,4 @@ approval. Keep this file concise — replace, don't append endlessly.
 
 ## Note on src/AGENTS.md
 `src/AGENTS.md` holds Astro-specific dev commands only. THIS root file governs the
-project. When they conflict, this file wins.  
+project. When they conflict, this file wins.
