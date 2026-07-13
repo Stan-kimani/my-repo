@@ -1,6 +1,5 @@
 ---
 interface Props {
-	eyebrow?: string;
 	heading: string;
 	subhead?: string;
 	ctaLabel?: string;
@@ -9,12 +8,11 @@ interface Props {
 	secondaryHref?: string;
 }
 
-const { eyebrow, heading, subhead, ctaLabel, ctaHref, secondaryLabel, secondaryHref } = Astro.props;
+const { heading, subhead, ctaLabel, ctaHref, secondaryLabel, secondaryHref } = Astro.props;
 ---
 
 <section class="mx-auto max-w-4xl px-6 py-16 text-center md:py-24">
 	<slot name="media" />
-	{eyebrow && <p class="mb-2 font-body text-sm font-medium uppercase tracking-wide text-deep-gold">{eyebrow}</p>}
 	<h1 class="text-3xl font-medium md:text-4xl xl:text-5xl">{heading}</h1>
 	{subhead && <p class="mx-auto mt-6 max-w-2xl leading-relaxed">{subhead}</p>}
 	{

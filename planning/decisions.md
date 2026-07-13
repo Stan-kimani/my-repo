@@ -65,3 +65,11 @@ premium service, not a limitation.
   tracked files. Recommend rotating it in Postmark since it was shared in plaintext.
 - ACTION before real sends: verify info@remotekind.co (or the remotekind.co domain via DKIM) as a
   sender signature in Postmark, or transactional emails will bounce.
+
+## 2026-07-13 — Category word: matchmaker (supersedes placement framing)
+RemoteKind's category word is now **matchmaker**, consistent site-wide (Home, How It Works,
+About). Mary sources, vets, and personally matches each operator to a founder — there is no
+self-select shortlist for the client to choose from. Supersedes the 2026-07-07 "placement"
+framing (source → vet → shortlist → client selects). Step 4 renamed "The match" everywhere
+the Steps component appears; brand.md's "operator-placement service" line updated to
+"founder-led matchmaker" to match.

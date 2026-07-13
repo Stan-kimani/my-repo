@@ -2,7 +2,6 @@
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero.astro";
 import Steps from "../components/Steps.astro";
-import Testimonial from "../components/Testimonial.astro";
 import CtaBand from "../components/CtaBand.astro";
 
 const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL || "https://calendly.com/remotekind/discovery-call";
@@ -18,11 +17,11 @@ const steps = [
 	},
 	{
 		title: "Step 3 — Vetting",
-		body: "Every candidate completes our rigorous 4-stage skills test, and each brings 2–3 years of executive support experience. We assess fit, reliability, and communication — so only proven people reach your shortlist.",
+		body: "Every candidate completes our rigorous 4-stage skills test, and each brings 2–3 years of executive support experience. We assess fit, reliability, and communication — so only proven people are ever matched to you.",
 	},
 	{
-		title: "Step 4 — Placement",
-		body: "We present the strongest candidates for your review, support your selection, and move everything smoothly into onboarding — so you can delegate and reclaim your time.",
+		title: "Step 4 — The match",
+		body: "We match you with the operator who fits — the one we'd trust in our own business — and move everything smoothly into onboarding, so you can delegate and reclaim your time.",
 	},
 ];
 ---
@@ -86,21 +85,15 @@ const steps = [
 				with the best.
 			</li>
 			<li>
-				<strong class="text-neutral-ink">Chosen for you.</strong> Candidates selected for your requirements
+				<strong class="text-neutral-ink">Matched to you.</strong> Selected for your requirements
 				and working style, not just availability.
 			</li>
 			<li>
 				<strong class="text-neutral-ink">We run the whole search.</strong> Discovery, sourcing, vetting,
-				and a curated shortlist — you skip the hundred applicants and choose from the best.
+				and a personal match — you skip the hundred applicants and get the one who fits.
 			</li>
 		</ul>
 	</section>
-
-	<Testimonial
-		quote="RemoteKind took operations off my plate so I could focus on growth. I got back 10+ hours a week."
-		name="Lynet"
-		role="Founder"
-	/>
 
 	<CtaBand
 		heading="Ready to stop being the bottleneck?"

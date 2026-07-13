@@ -9,7 +9,7 @@ Cursor, Codex, ChatGPT) should treat this as authoritative.
 
 ## 1. Brand personality
 
-RemoteKind is **premium but personal** — a boutique operator-placement service, not a faceless
+RemoteKind is **premium but personal** — a boutique founder-led matchmaker, not a faceless
 agency. Drawn from the palette and the founders' photography, the identity is:
 
 - **Warm** — golden, human, inviting. The opposite of cold corporate staffing.
