@@ -1,4 +1,4 @@
-# Contact — page copy (PLACEHOLDER values marked; structure final)
+# Contact — page copy (real values; final)
 
 Voice: premium, calm, low-friction. Single primary action: Book a call (Calendly).
 Form is the secondary path. Real Calendly link + inbox email swapped before launch.
@@ -23,8 +23,8 @@ On submit → POST /api/contact → Postmark sends: (1) notification to RemoteKi
 to the visitor. Show a thank-you state on success; a clear error on failure.
 
 ## Direct
-Email: [PLACEHOLDER] hello@remotekind.com  (confirm real inbox + domain before launch)
-Response time (optional): [PLACEHOLDER, e.g. "We reply within one business day."]
+Email: info@remotekind.co  (confirm real inbox + domain before launch)
+Response time (optional): We reply within one business day.
 
 ## To replace before launch
 - Real Calendly event URL (env PUBLIC_CALENDLY_URL)
