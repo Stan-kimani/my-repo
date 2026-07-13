@@ -40,9 +40,9 @@ Calendly + Postmark, single-CTA launch, warm brand palette (gold/lavender/sage/c
 
 ## Pre-launch swap checklist (placeholders that MUST become real before going live)
 - [ ] About: replace all [PLACEHOLDER] bio/story with real founder facts + names
-- [ ] Calendly: PUBLIC_CALENDLY_URL -> real event link
-- [ ] Postmark: POSTMARK_API_TEST -> real server token; verify sender domain
-- [ ] Contact emails: real inbox (CONTACT_TO_EMAIL) + verified sender (CONTACT_FROM_EMAIL)
+- [x] Calendly: real link set (https://calendly.com/remotekind/discovery-call)
+- [x] Postmark token obtained (in .env + Netlify, NOT committed) — [ ] still verify sender info@remotekind.co in Postmark
+- [x] Contact emails: info@remotekind.co set — [ ] confirm it's Postmark-verified
 - [ ] Logo: swap 500px PNG for SVG if available
 - [ ] Final grep: no "[PLACEHOLDER]" or "POSTMARK_API_TEST" strings remain
 

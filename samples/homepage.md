@@ -58,11 +58,11 @@ We search for qualified candidates who match your requirements, skills needs, an
 **Step 3 — Vetting**
 Every candidate completes our rigorous 4-stage skills test, and each brings 2–3 years of
 executive support experience. We assess fit, reliability, and communication — so only proven
-people reach your shortlist.
+people are ever matched to you.
 
-**Step 4 — Placement**
-We present the strongest candidates for your review, support your selection, and move everything
-smoothly into onboarding — so you can delegate and reclaim your time.
+**Step 4 — The match**
+We match you with the operator who fits — the one we'd trust in our own business — and move
+everything smoothly into onboarding, so you can delegate and reclaim your time.
 
 **CTA under the steps:** Book a call
 
@@ -77,22 +77,20 @@ doesn't work out — time you don't have. RemoteKind exists so you skip all of i
 
 - **Vetted, not gambled.** Every operator has 2–3 years of executive support experience and
   passes a rigorous 4-stage skills test — we only work with the best.
-- **Chosen for you.** Candidates selected for your requirements and working style, not just availability.
-- **We run the whole search.** Discovery, sourcing, vetting, and a curated shortlist — you skip
-  the hundred applicants and choose from the best.
+- **Matched to you.** Selected for your requirements and working style, not just availability.
+- **We run the whole search.** Discovery, sourcing, vetting, and a personal match — you skip the
+  hundred applicants and get the one who fits.
 
 ---
 
 ## 6. Proof
 
-**Heading:** Founders who got their time back
-
-> "RemoteKind took operations off my plate so I could focus on growth. I got back 10+
-> hours a week."
-> — Lynet, Founder
-> [Strengthen if she consents: add company + photo.]
+*(No testimonial in v1 — the Lynet quote was removed pending a real, permissioned one. Add a
+genuine testimonial here as soon as available; do not fabricate. Until then, credibility rests on
+the vetting standard and the founder story.)*
 
 ---
+
 
 ## 7. Final CTA
 

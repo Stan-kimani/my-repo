@@ -64,9 +64,10 @@ approval. Keep this file concise — replace, don't append endlessly.
 - Page copy is drafted in `samples/` and approved before building. Pull approved copy
   into components; don't invent headlines or body text.
 - **Never invent or alter brand claims.** These are locked in decisions.md and must stay
-  exactly true: operators = 2–3 yrs experience + 4-stage skills test; the Lynet testimonial is
-  the only real one — do not fabricate others. Service model = placement (source → vet →
-  shortlist → client selects), NOT a ready "bench." No replacement guarantee in v1.
+  exactly true: operators = 2–3 yrs experience + 4-stage skills test. Positioning = founder-led
+  MATCHMAKER (Mary sources, vets, and personally matches), NOT a job-board or ready "bench," and
+  the client isn't handed a self-select shortlist. No replacement guarantee in v1. No testimonial
+  in v1 (Lynet removed) — never fabricate one; add only a real, permissioned quote.
 
 ## 7. Conventions
 - Components small, colocated, no premature extraction (extract on the 3rd duplication).

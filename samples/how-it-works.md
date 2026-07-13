@@ -29,11 +29,10 @@ We search for qualified candidates who match your requirements, skills needs, an
 **Step 3 — Vetting**
 Every candidate completes our rigorous 4-stage skills test and brings 2–3 years of executive
 support experience. We assess fit, reliability, and communication — so only proven people reach
-your shortlist.
+you.
 
-**Step 4 — Placement**
-We present the strongest candidates for your review, support the selection process, and help
-move everything forward smoothly into onboarding.
+**Step 4 — The match**
+We match you with the operator who fits and move everything smoothly into onboarding.
 
 **CTA:** Book a call
 
@@ -43,8 +42,8 @@ move everything forward smoothly into onboarding.
 
 **Heading:** What your retainer includes
 
-Your retainer typically includes candidate sourcing, vetting, shortlist presentation,
-interview support, and placement coordination.
+Your retainer typically includes candidate sourcing, personal vetting, matching, and onboarding
+coordination.
 
 ---
 
@@ -56,7 +55,7 @@ You could. But you'd sift a hundred applicants, screen them alone, and carry the
 doesn't work out — time you don't have. RemoteKind runs the whole process for you:
 
 - **A proven process, not a gamble.** Discovery, sourcing, and careful vetting before anyone
-  reaches your shortlist.
+  reaches you.
 - **Matched to you.** Candidates chosen for your requirements and working style, not just availability.
 - **Vetted to a real bar.** Every operator has 2–3 years of experience and passes a 4-stage
   skills test — the search and screening are done before anyone reaches you.
@@ -75,6 +74,6 @@ filled and how we'd find the right person for it.
 ---
 
 ## Status
-Reconciled with homepage.md (2026-07-07): placement model confirmed; sourcing (not a ready
-bench); client selects from a shortlist; 2–3 yrs + 4-stage claim retained (true); 10-day
-guarantee dropped. Retainer = the placement service (sourcing → placement coordination).
+Aligned to the MATCHMAKER model (2026-07-08): founder-led — Mary sources, vets, and personally
+matches (not a job-board, not a ready bench, client isn't handed a self-select shortlist). 2–3 yrs
++ 4-stage claim retained (true); no guarantee in v1. Consistent across Home + About.

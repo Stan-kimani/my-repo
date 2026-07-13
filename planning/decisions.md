@@ -55,3 +55,13 @@ single founder story + one/two photos of Mary; the "Meet the team" grid is remov
 How It Works / Contact keep "we" (standard business voice, implies no team). All photos in
 reference/brand/ are of Mary. Founder-led intimacy is a positioning strength for a boutique
 premium service, not a limitation.
+
+## 2026-07-08 — Production integration values
+- Calendly (public): https://calendly.com/remotekind/discovery-call — confirmed, wired via PUBLIC_CALENDLY_URL.
+- Contact email (public): info@remotekind.co — used for CONTACT_TO_EMAIL and CONTACT_FROM_EMAIL.
+- Domain: remotekind.co — confirmed; astro.config `site` already set to https://remotekind.co.
+- Postmark server token: OBTAINED. Stored ONLY in local .env (gitignored) + Netlify env vars.
+  NOT committed anywhere (repo is public). The token value is intentionally absent from all
+  tracked files. Recommend rotating it in Postmark since it was shared in plaintext.
+- ACTION before real sends: verify info@remotekind.co (or the remotekind.co domain via DKIM) as a
+  sender signature in Postmark, or transactional emails will bounce.

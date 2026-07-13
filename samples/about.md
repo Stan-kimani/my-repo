@@ -1,22 +1,23 @@
-# About — page copy (solo founder-led, Mary). Real copy — near final.
+# About — RemoteKind (solo founder-led, matchmaker). Real copy — final.
 
-Voice: premium, calm, warm, personal, first-person. RemoteKind is led by Mary as a SOLO
-founder. ONE photo of Mary (used once, in the hero — no gallery, no team). Visual weight is
-carried by layout, a pull-quote, and structured proof — not more images. Single CTA: Book a call.
+Voice: warm, calm, premium, first-person. RemoteKind is founder-led MATCHMAKING (Mary).
+ONE photo of Mary, used once in the hero. No gallery, no team, no testimonial in v1.
+Single CTA: Book a call.
 
 ---
 
 ## Hero
 
-**Eyebrow:** Hi, I'm Mary
+**Heading:** I'd never hand you someone I wouldn't hire myself.
 
-**Heading (Fraunces):** I know both sides — because I've lived both sides.
+**Subhead:** RemoteKind is founder-led matchmaking — I connect entrepreneurs with the operators
+who actually fit them, and I vet every one personally.
 
-**Intro:** I'm a Kenyan founder building RemoteKind from Bangkok. For the past four years I've
-worked at the center of the remote work industry — training operators to perform at a high level,
-and helping entrepreneurs find the ones actually worth hiring.
+*Image: strongest photo of Mary (founder-1). Aspect-ratio-correct, whole subject visible — no crop.*
 
-**Image:** one portrait of Mary (founder-1), used here only.
+> Alt hero headings to A/B later:
+> - "You don't need more résumés. You need the right person."
+> - "I built RemoteKind so you'd never have to gamble on a hire again."
 
 ---
 
@@ -24,20 +25,24 @@ and helping entrepreneurs find the ones actually worth hiring.
 
 **Heading:** Why I started RemoteKind
 
-I've spent the last four years inside the remote work world — not observing it, building in it. I
-train virtual assistants and operators to do genuinely excellent work, and I've watched the other
-side of that equation up close: talented founders buried in tasks they should never touch, hiring
-on hope, and paying for it in burnout and lost momentum.
+I didn't plan to build a company. I planned to do the work — and I loved doing it. Four years as
+an operator taught me the craft from the inside out. But the longer I did it, the more I kept
+hearing the same conversation around me: founder after founder telling me they'd cycled through VA
+after VA, remote worker after remote worker, and *still* hadn't found the one who actually fit.
+Different people, the exact same frustration, on repeat.
 
-The problem was never a shortage of talent. It was the gap between the founders who needed leverage
-and the operators good enough to deliver it — with no reliable bridge between them. Volume isn't the
-answer. The right person is.
+Then I became the client. I was the one trying to hire — flooded with capable, eager applicants who
+all wanted the role, and I still found it genuinely hard to choose the right one. That was the moment
+it landed for me: the problem was never a shortage of people who want the job. It's that almost no one
+does the careful, unglamorous work of matching the right person to the right founder.
 
-I built the thing I wished existed on both sides of the table.
+So I made a decision — to stop being one more link in that churn and build the thing that actually
+fixes it. That's RemoteKind. I source, I vet, and I match you with operators I'd trust with my own
+business, so you can stop starting over.
 
 ---
 
-## Pull-quote (typographic centerpiece — large Fraunces on a cream or lavender band)
+## Pull-quote (large Fraunces on a cream or lavender band — the centerpiece)
 
 **"'Available' and 'excellent' are not the same word."**
 
@@ -45,30 +50,30 @@ I built the thing I wished existed on both sides of the table.
 
 ## The bar I hold
 
-*(Render as structured visual points with sage accents — not a paragraph.)*
+*(Render the standard as structured visual points with sage accents, not a wall of prose.)*
 
-That's why RemoteKind holds a hard line on quality:
+I don't place anyone I wouldn't put in front of my own clients. Before an operator is ever matched
+to you, they've brought at least 2–3 years of real executive-support experience *and* passed my
+four-stage skills test.
 
-- **2–3 years of real executive support experience** — every operator, no exceptions.
-- **A four-stage skills test** — cleared before anyone reaches your shortlist.
-- **People I'd trust inside my own business** — I place operators who make a founder's life
-  measurably lighter, not someone who's merely available.
+No spray-and-pray. No filler candidates to make the list look full. You get a short, deliberate
+match — and the reason each person is right for you.
 
 ---
 
 ## CTA
 
-**Heading:** Let's find your person
+**Heading:** Let's find your person.
 
-**Primary CTA button:** Book a call
+**Button:** Book a call
+
+*Sub-line (optional):* One call. I'll learn what you actually need, and I'll only come back to you
+when I've got someone worth your time.
 
 ---
 
-## Notes for the build
-- ONE founder photo, in the hero only. Aspect-ratio-correct container (portrait ~4:5), whole
-  subject visible, no bad crops.
-- Pull-quote and "the bar I hold" points do the visual heavy lifting so the page isn't text-heavy.
-- Section rhythm: alternate white / cream / lavender-tint bands.
-- Copy is real and final except the optional bracketed line above (your decision).
-- Voice kept first-person per About. Her original "Every operator we place" was reworded to "every
-  operator" in the points; revert to "we place" if you prefer.
+## Before launch
+- Optional upgrade: one real number in the Story (operators placed / founders talked to) turns a
+  good story into a credible one.
+- Category word locked: **matchmaker** (consistent across Home + How It Works).
+- 4-stage skills test wording matches the locked claim across the site.
