@@ -67,7 +67,7 @@ Exact values sampled from the official Canva brand kit (`reference/brand/colors.
 Core brand colours are too light to use as text or behind white text. Use these where contrast matters:
 | Token | Hex | Use |
 |---|---|---|
-| Gold-deep | `#9A6E1B` | Gold-toned text/links on white (≥4.5:1) |
+| Gold-deep | `#8C6419` | Gold-toned text/links/labels on white or cream (≥4.5:1, incl. small-caps labels) |
 | Sage-deep | `#3E6B65` | Sage-toned text/links on white (≥4.5:1) |
 
 ---
@@ -137,7 +137,7 @@ imply a team.
 Map into `theme.extend.colors` in `src/`:
 ```
 brand:   { gold:'#D9A441', lavender:'#C7B6D3', sage:'#75A7A1', charcoal:'#2A2A2A' }
-deep:    { gold:'#9A6E1B', sage:'#3E6B65' }
+deep:    { gold:'#8C6419', sage:'#3E6B65' }
 neutral: { ink:'#2A2A2A', body:'#4A463F', muted:'#8A857B', line:'#E7E3DC', cream:'#F7F4EF' }
 ```
 CTA = `bg-brand-gold text-brand-charcoal`; dark button = `bg-brand-charcoal text-white`;
