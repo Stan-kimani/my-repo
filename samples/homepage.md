@@ -7,13 +7,17 @@ Single CTA everywhere: **Book a call.** (Newsletter/lead magnet deferred to post
 
 ## 1. Hero
 
+*(Type-only hero on a cream band, centered; thin lavender rule under the CTA. Layout: Home 5a in
+planning/design-handoff.md. No photo, no secondary link.)*
+
+**Eyebrow (uppercase label, gold-ink):** For overwhelmed founders
+
 **Headline:** The leverage of a great operator — without the hiring risk.
 
 **Subhead:** RemoteKind sources and vets the right remote operator for overwhelmed founders —
 so you can hand off the day-to-day and get back to the work only you can do.
 
 **Primary CTA button:** Book a call
-**Secondary (scroll link under button):** Or see how it works ↓
 
 ---
 

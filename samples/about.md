@@ -1,19 +1,21 @@
 # About — RemoteKind (solo founder-led, matchmaker). Real copy — final.
 
 Voice: warm, calm, premium, first-person. RemoteKind is founder-led MATCHMAKING (Mary).
-ONE photo of Mary, used once in the hero. No gallery, no team, no testimonial in v1.
-Single CTA: Book a call.
+ONE photo of Mary, used once in the hero. No gallery, no team, no testimonial.
+Single CTA: Book a call. Visual layout: planning/design-handoff.md (About = 6a).
 
 ---
 
-## Hero
+## Hero (cream band, asymmetric: portrait left, text right)
+
+**Eyebrow (Fraunces italic, gold-ink):** Hi, I'm Mary — founder of RemoteKind
 
 **Heading:** I'd never hand you someone I wouldn't hire myself.
 
-**Subhead:** RemoteKind is founder-led matchmaking — I connect entrepreneurs with the operators
-who actually fit them, and I vet every one personally.
+**Subhead:** I've been the overwhelmed founder and the operator on the other end of the handoff.
+RemoteKind is built from both — I source and vet every match myself.
 
-*Image: strongest photo of Mary (founder-1). Aspect-ratio-correct, whole subject visible — no crop.*
+*Image: ONE portrait of Mary (founder-1). Aspect-ratio 4:5, whole subject visible — no crop.*
 
 > Alt hero headings to A/B later:
 > - "You don't need more résumés. You need the right person."
@@ -21,7 +23,9 @@ who actually fit them, and I vet every one personally.
 
 ---
 
-## The story
+## The story (white band)
+
+**Label:** The short version
 
 **Heading:** Why I started RemoteKind
 
@@ -42,38 +46,32 @@ business, so you can stop starting over.
 
 ---
 
-## Pull-quote (large Fraunces on a cream or lavender band — the centerpiece)
+## Pull-quote (lavender band — large Fraunces 400 italic, centered)
 
 **"'Available' and 'excellent' are not the same word."**
 
 ---
 
-## The bar I hold
+## The bar I hold (white band — three structured cards, sage numeral badges)
 
-*(Render the standard as structured visual points with sage accents, not a wall of prose.)*
+**Subline:** No one is matched to you until they clear every one of these.
 
-I don't place anyone I wouldn't put in front of my own clients. Before an operator is ever matched
-to you, they've brought at least 2–3 years of real executive-support experience *and* passed my
-four-stage skills test.
-
-No spray-and-pray. No filler candidates to make the list look full. You get a short, deliberate
-match — and the reason each person is right for you.
+- **01 — 2–3 years, minimum.** Real executive-support experience — never someone's first remote role.
+- **02 — A four-stage test.** Communication, judgment, tools, and follow-through — assessed before any match.
+- **03 — Trust, personally.** I sign off on every match. If I wouldn't hire them, you won't meet them.
 
 ---
 
-## CTA
+## CTA (charcoal band + gold button)
 
-**Heading:** Let's find your person.
+**Heading:** Let's find the operator you've been missing.
 
 **Button:** Book a call
 
-*Sub-line (optional):* One call. I'll learn what you actually need, and I'll only come back to you
-when I've got someone worth your time.
-
 ---
 
-## Before launch
-- Optional upgrade: one real number in the Story (operators placed / founders talked to) turns a
-  good story into a credible one.
-- Category word locked: **matchmaker** (consistent across Home + How It Works).
-- 4-stage skills test wording matches the locked claim across the site.
+## Notes
+- Copy adopted from the Claude Design handoff (About 6a) and synced here as canonical.
+- Story is Mary's real, final copy (verbatim). Vetting claim (2–3 yrs + four-stage) matches the
+  locked site-wide claim; stated as "before any match" — matchmaker language, no "shortlist."
+- The earlier optional CTA sub-line was dropped to match the adopted CTA band; re-add if desired.
