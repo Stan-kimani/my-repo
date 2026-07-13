@@ -15,6 +15,12 @@
 	--color-neutral-line: #e7e3dc;
 	--color-neutral-cream: #f7f4ef;
 
+	--color-lavender-tint: #f1eaf6;
+	--color-quote-label: #7a5aa0;
+	--color-sage-tint: #e3eeec;
+	--color-sage-icon: #2f5b55;
+	--color-sage-ring: #9bbab3;
+
 	--font-heading: "Fraunces", serif;
 	--font-body: "Inter", sans-serif;
 }
@@ -33,5 +39,24 @@
 	h6 {
 		font-family: var(--font-heading);
 		color: var(--color-neutral-ink);
+	}
+}
+
+[data-reveal] {
+	opacity: 0;
+	transform: translateY(18px);
+	transition:
+		opacity 0.75s ease-out,
+		transform 0.75s ease-out;
+}
+[data-reveal].is-in {
+	opacity: 1;
+	transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+	[data-reveal] {
+		opacity: 1 !important;
+		transform: none !important;
+		transition: none !important;
 	}
 }

@@ -4,14 +4,28 @@ interface Props {
 	body?: string;
 	ctaLabel: string;
 	ctaHref?: string;
+	variant?: "cream" | "charcoal";
 }
 
-const { heading, body, ctaLabel, ctaHref } = Astro.props;
+const { heading, body, ctaLabel, ctaHref, variant = "cream" } = Astro.props;
+const isCharcoal = variant === "charcoal";
 ---
 
-<section class="border-t border-neutral-line bg-neutral-cream px-6 py-16 text-center">
-	<h2 class="text-2xl md:text-3xl">{heading}</h2>
-	{body && <p class="mx-auto mt-4 max-w-2xl leading-relaxed">{body}</p>}
+<section
+	class={
+		isCharcoal
+			? "bg-brand-charcoal px-6 py-16 text-center"
+			: "border-t border-neutral-line bg-neutral-cream px-6 py-16 text-center"
+	}
+>
+	<h2 class={isCharcoal ? "mx-auto max-w-[22ch] text-2xl text-white md:text-3xl" : "text-2xl md:text-3xl"}>
+		{heading}
+	</h2>
+	{
+		body && (
+			<p class={`mx-auto mt-4 max-w-2xl leading-relaxed ${isCharcoal ? "text-white" : ""}`}>{body}</p>
+		)
+	}
 	<div class="mt-8">
 		<a
 			href={ctaHref}

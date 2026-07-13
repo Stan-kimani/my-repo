@@ -1,36 +1,64 @@
 ---
 import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
-import Hero from "../components/Hero.astro";
 import CtaBand from "../components/CtaBand.astro";
 import founder1 from "../assets/founder-1.jpg";
 
 const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL || "https://calendly.com/remotekind/discovery-call";
+
+const bars = [
+	{
+		numeral: "01",
+		title: "2–3 years, minimum",
+		body: "Real executive-support experience — never someone's first remote role.",
+	},
+	{
+		numeral: "02",
+		title: "A four-stage test",
+		body: "Communication, judgment, tools, and follow-through — assessed before any match.",
+	},
+	{
+		numeral: "03",
+		title: "Trust, personally",
+		body: "I sign off on every match. If I wouldn't hire them, you won't meet them.",
+	},
+];
 ---
 
 <Layout
 	title="About — RemoteKind"
 	description="Meet Mary, the founder-led matchmaker behind RemoteKind, and the personal standard every operator has to meet before she'll ever match them to you."
 >
-	<Hero
-		heading="I'd never hand you someone I wouldn't hire myself."
-		subhead="RemoteKind is founder-led matchmaking — I connect entrepreneurs with the operators who actually fit them, and I vet every one personally."
-	>
-		<div slot="media" class="mx-auto mb-8 aspect-[4/5] w-full max-w-xs overflow-hidden rounded bg-neutral-cream">
-			<Image
-				src={founder1}
-				alt="Mary, founder of RemoteKind"
-				width={480}
-				height={600}
-				class="h-full w-full object-contain"
-			/>
+	<section class="bg-neutral-cream px-6 py-16 md:py-24">
+		<div class="mx-auto grid max-w-5xl items-center gap-10 md:grid-cols-[0.8fr_1.2fr] md:gap-12">
+			<div class="mx-auto aspect-[4/5] w-full max-w-xs overflow-hidden rounded-[6px] bg-white shadow-[0_14px_36px_rgba(42,42,42,0.16)] md:max-w-none">
+				<Image
+					src={founder1}
+					alt="Mary, founder of RemoteKind"
+					width={480}
+					height={600}
+					format="webp"
+					class="h-full w-full object-contain"
+				/>
+			</div>
+			<div class="text-center md:text-left">
+				<p class="font-heading text-[15px] italic text-deep-gold">Hi, I'm Mary — founder of RemoteKind</p>
+				<h1 class="mt-3 font-heading text-[34px] font-medium leading-[1.28] text-neutral-ink">
+					I'd never hand you someone I wouldn't hire myself.
+				</h1>
+				<p class="mx-auto mt-4 max-w-[40ch] text-[15.5px] leading-[1.75] text-neutral-body md:mx-0">
+					I've been the overwhelmed founder and the operator on the other end of the handoff.
+					RemoteKind is built from both — I source and vet every match myself.
+				</p>
+			</div>
 		</div>
-	</Hero>
+	</section>
 
-	<section class="bg-neutral-cream px-6 py-16">
+	<section data-reveal class="px-6 py-16 md:py-20">
 		<div class="mx-auto max-w-3xl">
-			<h2 class="text-2xl md:text-3xl">Why I started RemoteKind</h2>
-			<p class="mt-4 leading-relaxed">
+			<p class="text-xs font-semibold uppercase tracking-[0.14em] text-deep-gold">The short version</p>
+			<h2 class="mt-2 text-2xl md:text-3xl">Why I started RemoteKind</h2>
+			<p class="mt-6 leading-relaxed">
 				I didn't plan to build a company. I planned to do the work — and I loved doing it. Four
 				years as an operator taught me the craft from the inside out. But the longer I did it,
 				the more I kept hearing the same conversation around me: founder after founder telling
@@ -52,40 +80,54 @@ const calendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL || "https://calendly.com
 		</div>
 	</section>
 
-	<section class="bg-brand-lavender/20 px-6 py-20 text-center">
-		<p class="mx-auto max-w-3xl font-heading text-3xl leading-snug text-neutral-ink md:text-4xl">
+	<section data-reveal class="bg-lavender-tint px-6 py-20 text-center">
+		<span class="mx-auto mb-6 block h-0.5 w-10 bg-brand-gold" aria-hidden="true"></span>
+		<blockquote class="mx-auto max-w-[20ch] font-heading text-[40px] leading-[1.32] text-neutral-ink italic">
 			&ldquo;&lsquo;Available&rsquo; and &lsquo;excellent&rsquo; are not the same word.&rdquo;
-		</p>
+		</blockquote>
 	</section>
 
-	<section class="px-6 py-16">
-		<div class="mx-auto max-w-3xl">
+	<section data-reveal class="px-6 py-16 md:py-20">
+		<div class="mx-auto max-w-5xl text-center">
 			<h2 class="text-2xl md:text-3xl">The bar I hold</h2>
-			<ul class="mt-8 space-y-6">
-				<li class="border-l-2 border-brand-sage pl-4">
-					<p class="leading-relaxed">
-						I don't place anyone I wouldn't put in front of my own clients.
-					</p>
-				</li>
-				<li class="border-l-2 border-brand-sage pl-4">
-					<p class="leading-relaxed">
-						Before an operator is ever matched to you, they've brought at least <strong class="text-neutral-ink">2–3 years of real executive-support experience</strong> <em>and</em> passed <strong class="text-neutral-ink">my four-stage skills test</strong>.
-					</p>
-				</li>
-				<li class="border-l-2 border-brand-sage pl-4">
-					<p class="leading-relaxed">
-						No spray-and-pray. No filler candidates to make the list look full. You get a
-						short, deliberate match — and the reason each person is right for you.
-					</p>
-				</li>
-			</ul>
+			<p class="mx-auto mt-4 max-w-2xl leading-relaxed">
+				No one is matched to you until they clear every one of these.
+			</p>
+			<div class="mt-10 grid gap-6 md:grid-cols-3">
+				{
+					bars.map((bar) => (
+						<div class="rounded-[6px] border border-neutral-line bg-neutral-cream px-[26px] py-[30px] text-left">
+							<div class="flex h-[46px] w-[46px] items-center justify-center rounded-full bg-sage-tint font-heading text-sm font-medium text-sage-icon ring-1 ring-sage-ring">
+								{bar.numeral}
+							</div>
+							<h3 class="mt-4 font-heading text-[19px] font-medium text-neutral-ink">{bar.title}</h3>
+							<p class="mt-2 text-[13.5px] leading-relaxed text-neutral-body">{bar.body}</p>
+						</div>
+					))
+				}
+			</div>
 		</div>
 	</section>
 
-	<CtaBand
-		heading="Let's find your person."
-		body="One call. I'll learn what you actually need, and I'll only come back to you when I've got someone worth your time."
-		ctaLabel="Book a call"
-		ctaHref={calendlyUrl}
-	/>
+	<div data-reveal>
+		<CtaBand
+			variant="charcoal"
+			heading="Let's find the operator you've been missing."
+			ctaLabel="Book a call"
+			ctaHref={calendlyUrl}
+		/>
+	</div>
 </Layout>
+
+<script>
+	const revealEls = document.querySelectorAll("[data-reveal]");
+	const observer = new IntersectionObserver((entries) => {
+		for (const entry of entries) {
+			if (entry.isIntersecting) {
+				entry.target.classList.add("is-in");
+				observer.unobserve(entry.target);
+			}
+		}
+	});
+	revealEls.forEach((el) => observer.observe(el));
+</script>

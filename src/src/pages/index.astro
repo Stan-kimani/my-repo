@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Hero from "../components/Hero.astro";
 import Steps from "../components/Steps.astro";
 import CtaBand from "../components/CtaBand.astro";
 
@@ -30,14 +29,25 @@ const steps = [
 	title="RemoteKind — The leverage of a great operator"
 	description="RemoteKind sources and vets the right remote operator for overwhelmed founders — so you can hand off the day-to-day and get back to the work only you can do."
 >
-	<Hero
-		heading="The leverage of a great operator — without the hiring risk."
-		subhead="RemoteKind sources and vets the right remote operator for overwhelmed founders — so you can hand off the day-to-day and get back to the work only you can do."
-		ctaLabel="Book a call"
-		ctaHref={calendlyUrl}
-		secondaryLabel="Or see how it works ↓"
-		secondaryHref="#how-it-works"
-	/>
+	<section class="bg-neutral-cream px-6 py-[72px] text-center lg:pt-[132px] lg:pb-[100px]">
+		<div class="mx-auto flex max-w-2xl flex-col items-center gap-[26px]">
+			<p class="text-xs font-semibold uppercase tracking-[0.14em] text-deep-gold">For overwhelmed founders</p>
+			<h1 class="max-w-[17ch] font-heading text-[clamp(1.875rem,6vw,2.875rem)] font-medium leading-[1.22] text-neutral-ink">
+				The leverage of a great operator — without the hiring risk.
+			</h1>
+			<p class="max-w-[46ch] text-[16.5px] leading-[1.7] text-neutral-body">
+				RemoteKind sources and vets the right remote operator for overwhelmed founders — so you
+				can hand off the day-to-day and get back to the work only you can do.
+			</p>
+			<a
+				href={calendlyUrl}
+				class="inline-block rounded bg-brand-gold px-8 py-3 font-medium text-brand-charcoal hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-charcoal"
+			>
+				Book a call
+			</a>
+			<span class="h-0.5 w-9 bg-brand-lavender" aria-hidden="true"></span>
+		</div>
+	</section>
 
 	<section class="mx-auto max-w-3xl px-6 py-16">
 		<h2 class="text-2xl md:text-3xl">You're the bottleneck. And you know it.</h2>
